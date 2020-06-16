@@ -1,4 +1,4 @@
-```objc
+```objective-c
 class Solution {
 public:
     int maxScoreSightseeingPair(vector<int>& A) {

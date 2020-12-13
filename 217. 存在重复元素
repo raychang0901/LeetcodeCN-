@@ -10,8 +10,8 @@ https://leetcode-cn.com/problems/contains-duplicate/
 
 ---------------------------------------
 
-```cpp
 
+```cpp
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {

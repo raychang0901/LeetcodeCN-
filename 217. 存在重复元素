@@ -11,6 +11,7 @@ https://leetcode-cn.com/problems/contains-duplicate/
 ---------------------------------------
 
 ```cpp
+
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {

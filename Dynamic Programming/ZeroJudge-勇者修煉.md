@@ -53,6 +53,7 @@ int main() {
 			else {
 				r[j] = max(dp[i-1][j], r[j+1])+a[j];	
 			}
+			//找最大值(左or右) ((左右皆有考慮上))
 			dp[i][j] = max(l[j], r[j]);
 			if(i==m){
 				res=max(dp[i][j], res);

@@ -29,6 +29,7 @@ int main() {
 	 cin>>m>>n;
 	 int res = -1e9;
 	 for(int i = 1; i<=m; i++){
+		//先算出一邊
 	 	for(int j = 1;j<=n; j++){
 	 		cin>>a[j];
 	 		if(i==0){
@@ -41,6 +42,7 @@ int main() {
 				l[j] = max(dp[i-1][j], l[j-1])+a[j]; //從上or從左 
 			}	
 		}
+		//再算另一邊
 		for(int j = n; j>=1; j--){
 			if(i==0){
 	 			r[j] = a[j];

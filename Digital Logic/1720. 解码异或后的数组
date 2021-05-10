@@ -1,0 +1,27 @@
+# 數位邏輯
+
+## 题目链接
+
+https://leetcode-cn.com/problems/decode-xored-array/
+
+力扣1720. 解码异或后的数组
+
+XOR的特性：    
+** a XOR b = c 即 a XOR c = b 即 b XOR c = a **
+    
+---------------------------------------
+
+```cpp
+class Solution {
+public:
+    vector<int> decode(vector<int>& encoded, int first) {
+        vector<int> ans(encoded.size()+1);
+        ans[0] = first;
+        for(int i = 1 ; i<ans.size(); i++){
+            ans[i] = encoded[i-1] xor first;
+            first = ans[i];
+        }
+        return ans;
+    }
+};
+```

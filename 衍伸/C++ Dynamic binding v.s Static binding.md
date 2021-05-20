@@ -1,4 +1,4 @@
-# Dynamic binding v.s Static binding
+# Dynamic binding v.s Static binding    
 ## run     
 https://coliru.stacked-crooked.com/a/4aca1d23c5e2f8a6    
 ## code   

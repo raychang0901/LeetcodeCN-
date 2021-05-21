@@ -40,7 +40,6 @@ public:
     {
         return a>b;
     }
-private:
 };
 bool cmp_func(int a, int b){
     return a>b;

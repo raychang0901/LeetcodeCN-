@@ -40,7 +40,7 @@
 * 排序法的實現細節
  https://github.com/raychang0901/LeetcodeCN-/blob/master/%E8%A1%8D%E4%BC%B8/%E6%8E%92%E5%BA%8F%E7%B4%B0%E7%AF%80(%E6%9C%AA%E5%AE%8C).md
 * Flatten Nested List Iterator (problem)
-
+https://github.com/raychang0901/LeetcodeCN-/blob/master/Design/Flatten%20Nested%20List%20Iterator.md
  
 ```diff
 !  目前題數： 108

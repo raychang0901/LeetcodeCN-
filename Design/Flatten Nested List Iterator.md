@@ -10,7 +10,7 @@ https://leetcode-cn.com/problems/flatten-nested-list-iterator/
 DFS初始化時就將List中每一個元素DFS到底，用一個list存    
 #### [法二] 
 初始化時，將每一個元素反向放入stack中，之後遍歷時再考慮是整數(Integer)或列表(List)，若是列表則再反向放入Stack中
-## [法二]都是反向放入，為何不用Queue
+## [法二]都是反向放入，為何不用Queue??
 因為要運用Stack FIFO的特性，遍歷時遇到的List要先處理，先輸出，所以要用Stack儲存而非用Queue....    
 但是考慮到要求輸出順序是由左到右，所以要由右到左(反向)放入元素    
 

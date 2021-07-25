@@ -43,6 +43,6 @@ https://github.com/raychang0901/LeetcodeCN-/blob/master/Linked%20List/146.%20LRU
 https://github.com/raychang0901/LeetcodeCN-/blob/master/Design/Flatten%20Nested%20List%20Iterator.md
  
 ```diff
-!  目前題數： 1
+!  目前題數： 110
 
 ```
